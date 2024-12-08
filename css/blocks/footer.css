@@ -1,0 +1,27 @@
+.footer {
+    padding: 39px 0 44px;
+    background-color: #145F78;
+    color: #FFFFFF;
+}
+
+.footer-nav {
+    font-weight: 700;
+    line-height: 19px;
+    text-align: left;
+    display: flex;
+    justify-content: end;
+}
+
+.footer-nav li + li {
+    margin-top: 10px;
+}
+
+.footer-nav li:nth-child(1) a {
+    margin-left: 0px;
+}
+.footer-nav li:nth-child(2) a {
+    margin-left: 14px;
+}
+.footer-nav li:nth-child(3) a {
+    margin-left: 33px;
+}

@@ -1,0 +1,222 @@
+.students {
+    position: relative;
+    padding: 40px 0 39px;
+    min-height: 1821px;
+}
+
+.students-content {
+    display: flex;
+    justify-content: space-between;
+    line-height: 12px;
+    font-size: 10px;
+}
+
+.students-mobile-content {
+    display: none;
+}
+
+.left-column, .right-column {
+    flex: 1;
+}
+
+.bg-img {
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #CBE7F1;
+}
+
+.bg-img img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.links {
+    color: #FF2A2A;
+}
+
+.links-2 {
+    color: #2C94BB;
+}
+
+.promotion {
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    margin: 0 30px 14px 0;
+    padding: 13px 35px 13px 31px;
+    width: 350px;
+    text-indent: 8%;
+}
+
+.evraz {
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    padding: 14px 32px 12px 28px;
+    margin-bottom: 13px;
+    width: 540px;
+}
+
+.card {
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    padding: 12px 21px 15px 22px;
+    margin: 0 30px 14px 0;
+    width: 350px;
+}
+
+.olympics {
+    display: flex;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    padding: 16px 32px 13px 30px;
+    margin-bottom: 13px;
+    width: 540px;
+}
+
+.olympics-cover img {
+    width: 158px;
+}
+
+.olympics-text {
+    width: 316px;
+    margin-right: 4px;
+}
+
+.olympics-ad {
+    margin-bottom: 15px;
+}
+
+.contest {
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    padding: 15px 46px 14px 25px;
+    margin: 0 30px 23px 0;
+    width: 350px;
+}
+
+.contest-text {
+    margin: 10px 56px 0;
+    text-align: center;
+}
+
+.support {
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    padding: 51px 17px 38px 25px;
+    width: 540px;
+    display: grid;
+    place-items: center;
+}
+
+.support-text {
+    margin-bottom: 41px;
+}
+
+.support-cover {
+    width: 410px;
+}
+
+.platform {
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    padding: 12px 15px 27px 32px;
+    margin-right: 30px;
+    width: 350px;
+}
+
+.platform-text {
+    margin-top: 9px;
+}
+
+.platform-cover img {
+    width: 100%;
+}
+
+@media (max-width: 390px) {
+    .bg-img img {
+        display: none;
+    }
+
+    .students {
+        min-height: 4059px;
+    }
+    
+    .students-content {
+        display: none;
+    }
+
+    .students-mobile-content {
+        display: block;
+        font-size: 10px;
+    }
+
+    .promotion, .card, .contest, .platform {
+        /* margin: 0 0 13px 0; */
+        margin-bottom: 13px;
+        width: 100%;
+    }
+
+    .evraz, .olympics, .support {
+        width: 100%;
+    }
+
+    .promotion {
+        padding: 6px 9px 15px 13px;
+    }
+
+    .evraz {
+        padding: 14px 24px 15px 28px;
+    }
+    
+    .card {
+        padding: 12px 16px 10px 22px;
+    }
+
+    .card img {
+        margin-bottom: 11px;
+    }
+
+    .olympics {
+        display: block;
+        padding: 13px 18px 18px 21px;
+    }
+
+    .olympics-cover {
+        margin-bottom: 10px;
+    }
+
+    .olympics-cover img {
+        width: 100%;
+    }
+
+    .contest {
+        padding: 15px 28px 16px 25px;
+    }
+
+    .contest-text {
+        margin: 8px 0 0;
+    }
+
+    .platform {
+        padding: 12px 24px 10px 32px;
+    }
+
+    .platform-text {
+        margin-top: 11px;
+    }
+
+    .support {
+        padding: 12px 15px 15px 13px;
+    }
+
+    .support-text {
+        margin-bottom: 3px;
+    }
+
+    .support-cover {
+        width: 100%;
+    }
+}
